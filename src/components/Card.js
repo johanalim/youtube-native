@@ -1,6 +1,6 @@
-import { AntDesign, Ionicons, MaterialIcons, TouchableOpacity } from "@expo/vector-icons";
+import { MaterialIcons } from "@expo/vector-icons";
 import React from 'react'
-import { StyleSheet, View, Image,Text, Dimensions } from 'react-native'
+import { StyleSheet, View, Image,Text, Dimensions, TouchableOpacity } from 'react-native'
 import { useNavigation } from '@react-navigation/native';
 
 const Card = (props) => {
@@ -54,5 +54,5 @@ const styles = StyleSheet.create({
         fontSize:20,
         width:Dimensions.get("screen").width - 50,
     }
-})
+});
 
